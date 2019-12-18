@@ -12,6 +12,7 @@ The IAM-Graph DB is publicly accessible and freely available for non-commercial 
 
 Each of the data sets available on this repository is divided into three disjoint subsets, which can be used for training, validation, and testing novel learning algorithms (train.cxl, valid.cxl, test.cxl). 
 The AIDS data set consists of graphs representing molecular compounds. We construct graphs from the AIDS Antiviral Screen Database of Active Compounds [molecules]. This data set consists of two classes (active, inactive), which represent molecules with activity against HIV or not. The molecules are converted into graphs in a straightforward manner by representing atoms as nodes and the covalent bonds as edges. Nodes are labeled with the number of the corresponding chemical symbol and edges by the valence of the linkage. In sample.eps one molecular compound of both classes is illustrated. Note that different shades of grey represent different chemical symbols, i.e. node labels. We use a training set and a validation set of size 250 each, and a test set of size 1,500. Thus, there are 2,000 elements totally (1,600 inactive elements and 400 active elements). The classification result achieved on this data set is 97.3%.
+大概意思：有2000个分子，其中有活性和非活性的这俩类。把这2000个分子分为测试集 训练集 验证集，最后在这个数据集上做分类，精度应该达到97.3%
 
 =======  REFERENCES ======= 
 
