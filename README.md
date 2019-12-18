@@ -217,7 +217,7 @@ After having executed these commands, the results of the experiments are contain
 
 # 7. Datasets
 
-GEDLIB comes with several datassets which contain graphs given in the [GXL file format](http://www.gupro.de/GXL/index.html). They are contained in the following subdirectories of the directory `data/datasets/`:
+GEDLIB comes with several datassets which contain graphs given in the [GXL file format](http://www.gupro.de/GXL/index.html). They are contained in the following subdirectories of the directory `data/datasets/`(传送门：https://sci-hub.tw/10.1007/978-3-540-89689-0_33):
 
 - <b>`AIDS`, `Fingerprint`, `GREC`, `Letter`, `Mutagenicity`, `Protein`:</b> These datasets are taken from the [IAM Graph Database](http://www.fki.inf.unibe.ch/databases/iam-graph-database). 
   You can use them for scientific work, but are requested to include the following reference to your paper:
