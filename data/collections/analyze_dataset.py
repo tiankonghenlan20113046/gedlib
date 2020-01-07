@@ -145,7 +145,7 @@ for gxl_file in graphs:
 	    num_components = num_nodes
 	    if num_edges > 0:
 		    num_components = num_connected_components(adj_matrix)
-	    nums_components = np.append(nums_components, [components])
+	    nums_components = np.append(nums_components, [components])  #NameError: name 'components' is not defined
 	    if num_edges == 0 or not is_cyclic(adj_list, num_nodes):
 		    ratio_acyclic = ratio_acyclic + 1.0
 	    if num_edges == 0 or is_planar(edge_list):
